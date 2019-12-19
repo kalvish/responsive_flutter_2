@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:the_basics/locator.dart';
 import 'package:the_basics/views/home/home_view.dart';
 //responsive ui tutorial part 2 
 //https://medium.com/flutter-community/easy-responsive-ui-in-flutter-web-flutter-web-series-part-2-ace93f49a512
 
-void main() => runApp(MyApp());
+void main() { 
+  setupLocator();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
