@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:the_basics/layout_template/layout_template.dart';
 import 'package:the_basics/locator.dart';
 import 'package:the_basics/views/home/home_view.dart';
 //responsive ui tutorial part 2 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         textTheme: Theme.of(context).textTheme.apply(fontFamily: 'Open Sans'),
       ),
-      home: HomeView(),
+      home: LayoutTemplate(),
     );
   }
 }
